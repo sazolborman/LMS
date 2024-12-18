@@ -1,0 +1,373 @@
+@media all and (max-width: 1439px) {}
+
+@media all and (max-width: 1365px) {}
+
+@media all and (max-width: 1199px) {
+
+    /* Header */
+    .header-content-right {
+        column-gap: 15px;
+    }
+
+    /* Message Page */
+    .messenger-body {
+        height: calc(100vh - 280px);
+    }
+
+    .messenger-footer-inner {
+        flex-wrap: wrap;
+    }
+
+    .form-control-message {
+        margin-right: 0;
+    }
+
+    /* Components Page */
+    .latest-product-header {
+        flex-wrap: wrap;
+    }
+
+    /* all ui element page */
+    .alert-width {
+        width: calc(100% - 50px);
+    }
+
+    .rich-alert {
+        width: calc(100% - 50px);
+        padding: 60px 60px;
+    }
+
+}
+
+@media all and (max-width: 1024px) {
+
+    /* Message Page */
+    .messenger-call-search {
+        column-gap: 12px;
+    }
+
+
+
+    /* table order manage page  */
+    .four-filter-wrap {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+
+    .custom-light-primary {
+        font-size: 11px !important;
+        padding: 8px 12px !important;
+
+    }
+
+    .course-edit-area {
+        width: 210px !important;
+    }
+
+
+}
+
+@media all and (max-width: 991px) {
+
+    /* Sidebar */
+    .ad-sidebar {
+        width: 262px;
+        left: -262px;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .ad-sidebar.hide {
+        width: 262px;
+        left: 0;
+    }
+
+    .ad-sidebar.hide .sidebar-logo-lg {
+        display: block;
+    }
+
+    .ad-sidebar.hide .sidebar-logo-sm {
+        display: none;
+    }
+
+    .ad-sidebar.hide .sidebar-first-li>a .text {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: inherit;
+        height: auto;
+    }
+
+    .ad-sidebar.hide~.body-wrapper {
+        left: 0px;
+        width: 100%;
+    }
+
+    .body-wrapper {
+        left: 0px;
+        width: 100%;
+    }
+
+    /* Message Page */
+    .messenger-body {
+        height: calc(100vh - 240px);
+    }
+
+    .messenger-footer-inner {
+        flex-wrap: nowrap;
+    }
+
+    .form-control-message {
+        margin-right: 6px;
+    }
+
+
+    /* setting form tab start*/
+    .custom-tab-button .nav .nav-link {
+        padding: 0px 0px 10px 0px;
+    }
+
+
+    /* all-ui-element page */
+    .alert-width {
+        width: calc(100% - 20px);
+    }
+
+    .rich-alert {
+        width: calc(100% - 30px);
+        padding: 50px 50px;
+    }
+
+
+}
+
+@media all and (max-width: 891px) {
+
+    /* Message Page */
+    .messenger-body {
+        height: calc(100vh - 280px);
+    }
+
+    .messenger-footer-inner {
+        flex-wrap: wrap;
+    }
+
+    .form-control-message {
+        margin-right: 0;
+    }
+
+
+
+}
+
+@media all and (max-width: 768px) {
+
+    /* Header */
+    .header-dropdown-menu-lg-inner {
+        width: 350px;
+    }
+
+    .dropdown-lg-list-item {
+        column-gap: 12px;
+    }
+
+    .dropdown-lg-list-details {
+        column-gap: 12px;
+    }
+
+    /* Header */
+    .header-desktop-search {
+        display: none;
+    }
+
+    .header-search-form {
+        max-width: max-content;
+    }
+
+    .header-mobile-search {
+        display: block flex;
+    }
+
+
+    /* Message Page */
+    .message-sidebar-area {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .message-sidebar-messages {
+        height: 250px;
+    }
+
+    .messenger-area {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .messenger-title {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .messenger-body {
+        height: 300px;
+    }
+
+    .messenger-footer-inner {
+        flex-wrap: nowrap;
+    }
+
+    /* table all sellers page  */
+    .two-filter-wrap {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+
+    /* element page start */
+    .iframe-content iframe {
+        height: 250px;
+        width: 100%;
+    }
+
+    .course-edit-area {
+        width: 200px !important;
+    }
+
+    .custom-light-primary {
+        font-size: 11px !important;
+        padding: 8px 12px !important;
+
+    }
+
+
+
+
+
+
+}
+
+@media all and (max-width: 575px) {
+
+    /* Header */
+    .header-content-right {
+        column-gap: 12px;
+    }
+
+    .ad-header {
+        column-gap: 20px;
+    }
+
+    .header-dropdown-lg {
+        position: static;
+    }
+
+    .header-dropdown-menu-lg {
+        transform: translateX(calc(-100% + 42px));
+        transform: translateX(-50%);
+        max-width: 394px;
+        width: 100%;
+        margin-top: 21px;
+        right: inherit;
+        top: inherit;
+        left: 50%;
+    }
+
+    .header-dropdown-menu-lg.active {
+        top: inherit;
+        margin-top: 18px;
+    }
+
+    .header-dropdown-menu-lg-inner {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* Message Page */
+    .messenger-footer-inner {
+        flex-wrap: wrap;
+    }
+
+    .form-control-message {
+        margin-right: 0;
+    }
+
+    /* table all page  */
+    .table-filter-wrap {
+        justify-content: flex-start;
+    }
+
+    /* All ui element page */
+    .vertical-form-step button.hidden {
+        visibility: hidden;
+        display: none;
+    }
+
+    .vertical-step {
+        width: 30px;
+        height: 30px;
+    }
+
+    .vertical-form-container {
+        padding: 20px 15px;
+    }
+
+    .vertical-progress-bar {
+        margin-right: 15px;
+    }
+
+    .fc-toolbar {
+        justify-content: flex-end;
+    }
+
+    .course-edit-area {
+        margin: auto;
+        width: 50%;
+    }
+
+    .message-sidebar-area {
+        width: 100%;
+    }
+
+    .ad-curriculum {
+        display: block !important;
+        margin: auto;
+        width: 50%;
+    }
+
+    .ad-curriculum a {
+        margin-bottom: 3px;
+    }
+
+    .section-menu {
+        display: block !important;
+        margin: auto;
+        width: 50%;
+    }
+
+    .section-menu a {
+        margin-bottom: 3px;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+
+    /* Message Page */
+    .messenger-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+        row-gap: 16px;
+    }
+
+    .messenger-call-search {
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .messenger-search .form-control:focus {
+        width: 200px;
+    }
+
+}

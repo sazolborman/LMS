@@ -1,0 +1,136 @@
+.eSweet_alerts_title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #181c32;
+    text-align: center;
+
+    @media screen and (max-width: 575px) {
+        text-align: left;
+    }
+}
+
+.e_sAlert {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+    width: 94px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+    /*@includebgBorder($eColor_Blue_bg,$eColor_Blue_border,5px):;
+    */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.eModal {
+    .modal-dialog {
+        margin: 0 auto;
+
+        &.sweet-alerts {
+            max-width: 287px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &.modal-dialog-centered {
+            justify-content: center;
+        }
+
+        .modal-content {
+            .modal-body {
+                padding: 13px 30px 20px !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .icon {
+                    width: 68px;
+                    height: 68px;
+                    border: 1.5px solid #e3e4ea;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 18px;
+
+                    svg {
+                        fill: #00a3ff;
+                    }
+
+                    &.icon-success {
+                        svg {
+                            fill: #50cd89;
+                        }
+                    }
+
+                    &.icon-confirm {
+                        svg {
+                            fill: #ffc700;
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: #181c32;
+                    padding-bottom: 16px;
+                }
+
+                .focus-text {
+                    color: #797c8b;
+                    margin-top: -10px;
+                }
+
+                button {
+                    width: 68px;
+                    height: 40px;
+                    background-color: #00a3ff;
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #fff;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                }
+
+                .confirmBtn {
+                    display: flex;
+                    gap: 14px;
+
+                    .eBtn-green {
+                        width: 116px;
+                        background-color: #50cd89 !important;
+                    }
+
+                    .eBtn-red {
+                        width: 100px;
+                        background-color: #f1416c !important;
+                    }
+                }
+            }
+        }
+
+        &.text-sweet-alerts {
+            max-width: 320px;
+
+            .modal-body {
+                padding: 28px 0 !important;
+            }
+        }
+    }
+}
